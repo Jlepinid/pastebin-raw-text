@@ -1,2 +1,313 @@
-pastebin-raw-text
-pastebin-raw-text.zip
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Ghub UI v6* Ultimate Trolling GUI", "BloodTheme")
+
+-- Objects
+
+local Tab1 = Window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Main")
+
+-- Buttons/Windows/FE
+
+Tab1Section:NewButton("Deadly laser gun coming soon up", "ButtonInfo", function()
+    loadstring(game:HttpGet(("https://pastebin.com/raw/Km..dhbTrt"),true))()
+end)
+
+Tab1Section:NewButton("god mode toggle", "Only work on lasers", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))()
+end)
+
+Tab1Section:NewButton("FE CCTV gui", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/CCTV%20Camera'))()
+end)
+
+Tab1Section:NewButton("Anti fling", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/PuAwMhXK'),true))()
+end)
+
+Tab1Section:NewButton("Anti Ban err", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/kt8x...7uK0'),true))()
+end)
+
+Tab1Section:NewButton("chat hax troll", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/MBpnp3yS'))()
+end)
+
+Tab1Section:NewButton("FE lag switch", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/Protected%20-%202023-05-28T225112.055.lua.txt'),true))()
+end)
+
+Tab1Section:NewButton("FPS booster", "ButtonInfo", function()
+    -- Made by RIP#6666
+_G.Settings = {
+    Players = {
+        ["Ignore Me"] = true, -- Ignore your Character
+        ["Ignore Others"] = true -- Ignore other Characters
+    },
+    Meshes = {
+        Destroy = false, -- Destroy Meshes
+        LowDetail = true -- Low detail meshes (NOT SURE IT DOES ANYTHING)
+    },
+    Images = {
+        Invisible = true, -- Invisible Images
+        LowDetail = false, -- Low detail images (NOT SURE IT DOES ANYTHING)
+        Destroy = false, -- Destroy Images
+    },
+    Other = {
+        ["No Particles"] = true, -- Disables all ParticleEmitter, Trail, Smoke, Fire and Sparkles
+        ["No Camera Effects"] = true, -- Disables all PostEffect's (Camera/Lighting Effects)
+        ["No Explosions"] = true, -- Makes Explosion's invisible
+        ["No Clothes"] = true, -- Removes Clothing from the game
+        ["Low Water Graphics"] = true, -- Removes Water Quality
+        ["No Shadows"] = true, -- Remove Shadows
+        ["Low Rendering"] = true, -- Lower Rendering
+        ["Low Quality Parts"] = true -- Lower quality parts
+    }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
+end)
+
+Tab1Section:NewButton("FE sound panel", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/SWsFdk2U'),true))()
+end)
+
+Tab1Section:NewButton("Goku SSJ Script", "ButtonInfo", function()
+    loadstring(game:HttpGet(("https://pastebin.com/raw/FwKgrMVR"),true))()
+end)
+
+Tab1Section:NewButton("Anti Kick", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/VLe9pcs2'),true))()
+end)
+
+Tab1Section:NewButton("Inf Jump", "Enables Inf Jumps", function()
+    local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+end)
+
+Tab1Section:NewToggle("Fov", "Changes Fov", function(state)
+    if state then
+        game.Workspace.CurrentCamera.FieldOfView = 120
+    else
+        game.Workspace.CurrentCamera.FieldOfView = 80
+    end
+end)
+
+Tab1Section:NewButton("FE Teleport player gui", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Teleport%20Gui.lua'))()
+end)
+
+Tab1Section:NewSlider("Speed", "G Speed", 1000, 10, function(v)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+end)
+
+Tab1Section:NewSlider("JumpPower", "G jump", 2000, 47, function(v)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
+end)
+
+Tab1Section:NewButton("FE invisible gui", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Invisible%20Gui'))()
+end)
+
+Tab1Section:NewButton("Fly gui v3 Updated", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro69Yes/sussy-Script/main/SecuredFlyGuiv3.lua'))()
+end)
+
+Tab1Section:NewButton("Fling gui", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt'),true))()
+end)
+
+Tab1Section:NewButton("Tool giver", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://pastefy.app/VYIAk3o1/raw'),true))()
+end)
+
+Tab1Section:NewButton("Dino fling", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_K2n31uc6t2wY5A8786eR4K15sgbUF0vdQ80a0LzgvLRkSNYd89H1AS3124gMR6SM.lua.txt'),true))()
+end)
+
+Tab1Section:NewButton("UFO kidnap gui", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/7scRrYKM'),true))()
+end)
+
+Tab1Section:NewButton("HYPERGUN LASER", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/TEkG5bs3'))()
+end)
+
+Tab1Section:NewButton("Control player gui", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/fJbWYetZ'),true))()
+end)
+
+Tab1Section:NewButton("FE spectating", "ButtonInfo", function()
+    loadstring(game:HttpGet(("https://pastebin.com/raw/Q2yZyqwp"),true))()
+end)
+
+--
+
+local Tab2 = Window:NewTab("Scripts hub")
+local Tab2Section = Tab2:NewSection("Scripts hub")
+
+--
+
+Tab2Section:NewButton("Ghost hub script", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
+Tab2Section:NewButton("C00l gui reborn hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/ckid", true))()
+end)
+
+Tab2Section:NewButton("Moon UI v10", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/IlikeyocutgHAH12/MoonUI-v10-/main/MoonUI%20v10'))()
+end)
+
+Tab2Section:NewButton("rosehub v3.0.1", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/9q2nraUs", true))()
+end)
+
+Tab2Section:NewButton("Moon UI v13", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeyocutgHAH/MoonUI-v13-102-SCRIPTS/main/MoonUI%20v13!"))()
+end)
+
+Tab2Section:NewButton("C00lgui script", "ButtonInfo", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/theawesomari0/c00lgui/main/c00lgui"), true))()
+end)
+
+Tab2Section:NewButton("Shakar's Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/moonsecV3/main/bido.ty"))()
+end)
+
+Tab2Section:NewButton("Ghub UI v2", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/YxPrQfED'),true))()
+end)
+
+Tab2Section:NewButton("Vhub script", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyaboivincentt5315/script/main/VHub.txt'),true))()
+end)
+
+Tab2Section:NewButton("Giga chad hub script", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Gigachad%20Hub%20V4'))()
+end)
+
+Tab2Section:NewButton("Giga chad hub v6", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LolPrivate/Side/main/Moonsec%20V3"))()
+end)
+
+-- 
+
+local Tab3 = Window:NewTab("FE animation script")
+local Tab3Section = Tab3:NewSection("FE animation script")
+
+--
+
+Tab3Section:NewButton("FE animation changer gui script", "ButtonInfo", function()
+    local AnimationChanger = Instance.new("ScreenGui")
+    loadstring(game:HttpGet(('https://pastebin.com/raw/h4CbmhTt'),true))()
+end)
+
+--
+
+local Tab4 = Window:NewTab("FE Keyboard script")
+local Tab4Section = Tab4:NewSection("FE Keyboard script")
+
+--
+
+Tab4Section:NewButton("keyboard script", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+--
+
+local Tab5 = Window:NewTab("Admin_script")
+local Tab5Section = Tab5:NewSection("Admin_script")
+
+--
+
+Tab5Section:NewButton("infinite yield", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Tab5Section:NewButton("Nameless Admin", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
+end)
+
+--
+
+local Tab6 = Window:NewTab("Games_script")
+local Tab6Section = Tab6:NewSection("Games_script")
+
+local Tab6Section = Tab6:NewSection("Natural disaster_script")
+
+--
+
+Tab6Section:NewButton("Natural disaster script", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/NaturalDisasterSurvival.lua"))()
+end)
+
+local Tab6Section = Tab6:NewSection("Prison life_script")
+
+--
+
+Tab6Section:NewButton("Prison life script gui", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+end)
+
+local Tab6Section = Tab6:NewSection("Brookhaven_script")
+
+--
+
+Tab6Section:NewButton("Brookhaven script", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+local Tab6Section = Tab6:NewSection("Pet simulator_script")
+
+--
+
+Tab6Section:NewButton("pet simulator x script", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/All-Scripts-Obfuscated.lua'))()
+end)
+
+local Tab6Section = Tab6:NewSection("Murder mystery 2_script")
+
+--
+
+Tab6Section:NewButton("murder mystery script", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifter0507/scripts/main/mm2", true))()
+end)
+
+local Tab6Section = Tab6:NewSection("survive the killer_script")
+
+--
+
+Tab6Section:NewButton("Survive the killer script", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FOXTROXHACKS/ElToro/main/Hub.lua"))()
+end)
+
+local Tab6Section = Tab6:NewSection("Blox fruit_script")
+
+--
+
+Tab6Section:NewButton("blox fruit script", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
+end)
+
+--
+
+local Tab7 = Window:NewTab("Credits")
+local Tab7Section = Tab7:NewSection("Created by Ghacks script please subscribe")
+
+--
+
+local Tab8 = Window:NewTab("Subscribe")
+local Tab8Section = Tab8:NewSection("A2br")
+
+local Tab8Section = Tab8:NewSection("JN HH Gaming")
+
+local Tab8Section = Tab8:NewSection("ZhenX")
+
+local Tab8Section = Tab8:NewSection("Bido skins")
+
+local Tab8Section = Tab8:NewSection("Darkmods")
+
